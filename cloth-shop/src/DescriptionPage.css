@@ -1,0 +1,119 @@
+.main-img{
+	width: 610px;
+	height: 511px;
+	margin-left: 30px;
+}
+
+.gallery-imgs{
+	display: flex;
+	flex-direction: column;
+}
+
+.imgs{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.gallery{
+	margin-bottom: 30px;
+	width: 80px;
+	height: 80px;
+	margin-left: 100px;
+}
+.description-page{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.description-container{
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: right;
+}
+
+.attributes{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+.attr-btn{
+display: flex;
+margin-right: 10px;
+width: 63px;
+height: 45px;
+border: 1px solid #1D1F22;
+text-align: center;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.attr-btn:hover{
+	background: rgba(29, 31, 34, 1);
+	color: white;
+}
+
+.active {
+	background: rgba(29, 31, 34, 1);
+	color: white;
+}
+
+.description-text{
+	width: 400px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 159.96%;
+
+}
+.add-to-cart-btn{
+	width: 250px;
+	height: 52px;
+	background: #5ECE7B;
+	color: white;
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 15px;
+margin-top: 15px;
+cursor: pointer;
+}
+
+.attrName{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 18px;
+}
+
+.brand{
+	color: #1D1F22;
+	font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 27px;
+
+}
+.name{
+	color: #1D1F22;
+	font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 27px;
+}
